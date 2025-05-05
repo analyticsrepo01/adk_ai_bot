@@ -23,3 +23,8 @@ The bot takes an input message and performs the following steps:
 2.  Creates a shortened version of the message, adhering to the rules defined in `prompt.py`.
 3.  Counts the characters in the shortened message.
 4.  Returns the original character count, the new character count, and the shortened message.
+
+## Required Agent Structure
+
+For ADK to discover and run your agents properly (especially with adk web), your project must follow a specific structure:
+
